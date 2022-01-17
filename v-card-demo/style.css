@@ -1,0 +1,177 @@
+/*Useful*/
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  font-size: 15px;
+}
+
+.flex{
+  display: flex;
+}
+
+
+
+.main-container{
+  min-height: 100vh;
+  min-width: 100vw;
+  /*background-color:red;*/
+}
+
+.container{
+  min-height: 100vh;
+}
+
+.left{
+  width: 20%;
+  background-color: #240099;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5vh;
+  /*box-sizing: border-box;*/
+}
+
+.middle{
+  width: 30%;
+  /*background-color: yellow;*/
+  /*background-color: #240099;*/
+}
+
+.right{
+  width: 50%;
+  /*background-color: blue;*/
+  /*background-color: #240099;*/
+}
+
+
+.main-image{
+  background-image: url("img/WhatsApp_Image_2022-01-06_at_10.26.40-removebg-preview-removebg-preview-removebg-preview.jpg");
+  height: 90vh;
+  width: 100%;
+  justify-content:flex-end;
+  align-items: center;
+  background-size: cover;
+  background-position: left;
+  box-shadow: 35px 30px 90px -20px;
+
+}
+
+.deco-color{
+  height: 5vh;
+  width: 40%;
+  background-color:#240099;
+
+}
+
+.logo{
+  width: 100px;
+  height: 50px;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/367844c9-6818-4963-985d-9cfeb9d077b0/white+logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.right-left{
+  /*background-color:white;*/
+  width: 10%;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.right-middle{
+  /*background-color:white;*/
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.right-right{
+  /*background-color:white;*/
+  width: 20%;
+  justify-content:flex-end;
+  padding:5vh;
+}
+
+.hamb{
+  font-size: 50px;
+  /*color:red;*/
+}
+
+.line{
+  height: 4px;
+  width: 30px;
+  background-color:#240099;
+  margin-bottom: 30vh;
+}
+
+.second-line{
+  height: 4px;
+  width: 120px;
+  background-color:#240099;
+  margin-bottom: 30vh;
+}
+
+.main-infos{
+  width: 80%;
+}
+
+.btn{
+  padding: 15px 30px;
+  border-radius: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.btn-port {
+  background-color: #240099;
+  border: none;
+  color: white;
+  margin-right: 2.5vh;
+}
+
+.btn-res{
+  background-color:white;
+  border: 1px solid black;
+}
+
+
+.main-infos h1 span{
+  color: #240099;
+}
+
+.main-infos h1{
+  margin-bottom: 2.5vh;
+}
+
+.main-infos h2{
+  margin-bottom: 5vh;
+}
+
+.main-infos p{
+  margin-bottom: 2.5vh;
+}
+
+.social-icons{
+  display: flex;
+  justify-content:space-between;
+}
+
+.infos-container{
+  color: white
+}
+
+.infos-container h2{
+  margin-bottom:1.75vh;
+}
+.infos-container p{
+  margin-bottom: 5vh;
+}
+
